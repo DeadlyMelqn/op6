@@ -7,6 +7,7 @@
 #include <linux/init.h>
 #include <linux/input.h>
 #include <linux/moduleparam.h>
+#include <linux/bug.h>
 
 static unsigned int cust_flag = 0;
 

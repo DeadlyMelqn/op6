@@ -9,7 +9,7 @@
 
 static struct op_adapter_chip *the_chip;
 
-#define DEFALUT_TX_VALUE 0xFF
+#define DEFAULT_TX_VALUE 0xFF
 static void dash_uart_gpio_set_value(struct op_adapter_chip *chip,
 	unsigned long pin, bool value)
 {
@@ -403,7 +403,7 @@ dash_adapter_update_handle(
 	chip->uart_tx_gpio = tx_pin;
 	chip->uart_rx_gpio = rx_pin;
 	chip->adapter_update_ing = true;
-	chip->tx_invalid_val = DEFALUT_TX_VALUE;
+	chip->tx_invalid_val = DEFAULT_TX_VALUE;
 	chip->rx_timeout = false;
 
 	/* step1: Tx_Erase_Addr_Line */

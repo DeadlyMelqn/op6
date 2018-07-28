@@ -2414,6 +2414,8 @@ CONFIG_QPNP_SMB2=y
 CONFIG_QPNP_QNOVO=y
 # CONFIG_QPNP_TYPEC is not set
 
+CONFIG_FORCE_FAST_CHARGE=y
+
 #
 # Miscellaneous Qualcomm Technologies, Inc. power support
 #

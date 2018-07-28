@@ -1,4 +1,6 @@
 ccflags-y := -Iinclude/linux
+ccflags-y += -O3 -ffast-math -fgcse-lm -fgcse-sm -fsched-spec-load -fforce-addr -fsingle-precision-constant
+
 
 msm_kgsl_core-y = \
 	kgsl.o \
